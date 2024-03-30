@@ -6,4 +6,4 @@ $ npm install
 
 To run-
 
-$ npm expo start
+$ npx expo start
