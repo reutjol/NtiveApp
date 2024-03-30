@@ -5,7 +5,7 @@ import axios from "axios";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
-function Authorise({ authUser, navigation }) {
+function Authorise({ authUser }) {
   const [isLogin, setIsLogin] = React.useState(true);
   const [error, setError] = React.useState("");
 
@@ -25,7 +25,7 @@ function Authorise({ authUser, navigation }) {
         .then(
           (res) => {
             // console.log(userData);
-            console.log(res.data, res.status);
+            // console.log(res.data, res.status);
             var data = { user: res.data, isAuthorised: true };
             authUser(data);
           },
