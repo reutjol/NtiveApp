@@ -4,7 +4,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useNavigation } from "@react-navigation/native";
 import Authorise from "../components/Login/Authorise";
 
-const LoginScreen = ({ isAuthUser }) => {
+const LoginScreen = () => {
   const navigation = useNavigation();
 
   const getUserAuthentication = useCallback(
@@ -25,9 +25,8 @@ const LoginScreen = ({ isAuthUser }) => {
         await AsyncStorage.removeItem("userAuthDetails");
       }
       //console.log(authDetails);
-      isAuthUser(authDetails.isAuthorised);
     },
-    [isAuthUser, navigation]
+    [navigation]
   );
 
   return (
