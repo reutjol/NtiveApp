@@ -1,6 +1,5 @@
 ---
 
-```markdown
 # 📱 Coffee Station – React Native App
 
 A cross-platform mobile application for ordering coffee via a user-friendly interface.  
