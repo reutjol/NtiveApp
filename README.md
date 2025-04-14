@@ -131,21 +131,8 @@ npx expo start
 
 ---
 
-## 📎 Related Repositories
-
-- **Backend API** – [Coffee Station Backend](https://github.com/reutjol/appCoffee)
-
----
-
 ## 🧑‍💻 Developed by
 
 [Reut Uzan](https://www.linkedin.com/in/reut-uzan-096948197/)  
 
 ```
-
-### 💡 רוצה שאעזור לך:
-- להעלות את הקובץ הזה ישירות כ־`README.md` ל־GitHub?
-- להכין מצגת קצרה לפרויקט לפי התוכן הזה?
-- לבנות README גם לפרויקטים נוספים שלך?
-
-רק תגידי מה את צריכה ואכין לך הכול מותאם אישית 💪
